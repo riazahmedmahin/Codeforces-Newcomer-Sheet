@@ -1,4 +1,4 @@
-// prepain by @ Mahin
+// prepared by @ Mahin
 
 #include<iostream>
 using namespace std;
