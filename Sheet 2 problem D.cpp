@@ -1,19 +1,20 @@
 //prepared by@Mahin
-#include <stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
     int a;
     while(1)
     {
-        scanf("%d", &a);
+        cin>>a;
             if(a==1999)
             {
-                    printf("Correct\n");
+                    cout<<"Correct"<<endl;
                     break;
             }
             else
             {
-                    printf("Wrong\n");
+                    cout<<"Wrong"<<endl;
             }
     }
     return 0;
