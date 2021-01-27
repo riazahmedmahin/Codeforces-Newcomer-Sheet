@@ -1,4 +1,4 @@
-//preparedby @ Mahin
+//prepared by @ Mahin
 
 #include<iostream>
 #include<string>
