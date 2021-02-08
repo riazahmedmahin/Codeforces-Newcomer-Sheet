@@ -1,5 +1,5 @@
-// prepared by @ Mahin \
-#include <iostream>
+// prepared by @ Mahin 
+#include<iostream>
 using namespace std;
 
 int main()
