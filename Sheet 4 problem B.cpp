@@ -1,4 +1,4 @@
-// by @ Maghin 
+// by @ Mahin 
  #include<bits/stdc++.h>
 using namespace std;
 int main(){
