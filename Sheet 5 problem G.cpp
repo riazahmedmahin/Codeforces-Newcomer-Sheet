@@ -19,8 +19,7 @@ display (int a[], int n)
   cout << min << " " << max;
 }
 
-int
-main ()
+int main ()
 {
   int n, i;
   cin >> n;
