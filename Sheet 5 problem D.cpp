@@ -17,8 +17,7 @@ prime (int n)
   (c == 0) ? cout << "YES" << endl : cout << "NO" << endl;
 }
 
-int
-main ()
+int main ()
 {
 
 
