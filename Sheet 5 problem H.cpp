@@ -8,8 +8,7 @@ Loop (char c)
   return c;
 }
 
-int
-main ()
+int main ()
 {
 
   int t;
