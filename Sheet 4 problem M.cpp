@@ -2,23 +2,28 @@
 
 
 #include<bits/stdc++.h>
-using namespace  std;
+using namespace std;
 int main()
 {
-    char s[10010],b[7];char a[]="hello";
-    int d=-1,h=0,i,j;
-    gets(s);
-    for(i=0;s[i]!='\0';i++)
+    string s;
+    cin>> s;
+    char c='h';
+    int l= s.size(),flag = 0;
+    for(int i=0; i<l; i++)
     {
-      if(s[i]==a[h])
-      {
-          b[h]=a[h];
-          h++;
-      }
+        if(s[i]==c)
+        {
+            flag++;
+            if(flag == 1)
+                c = 'e';
+            else if(flag == 2)
+                c = 'l';
+            else if(flag==3)
+                c= 'l';
+            else if(flag== 4)
+                c = 'o';
+            else if(flag == 5)
+                break;
+        }
     }
-    int k=!strcmp(a,b);
-    if(k==1)
-    cout<<"YES";
-    else
-    cout<<"NO";
-}
+ 
