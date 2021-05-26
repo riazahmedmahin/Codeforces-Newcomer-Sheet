@@ -1,24 +1,38 @@
 // by @ Mahin
 
-#include<bits/stdc++.h>
-using namespace std;
+#include<bits/stdc++.h>  
+using namespace std; 
+
+void disti(vector <int> num){
+	int count = 1;
+	for(int i = 0; i < num.size() - 1; i++){
+		if(num[i] != num[i + 1]) count++;
+	}
+	cout << count;
+}
+
 int main ()
 {
 
-  vector < int >v;
+
   int n;
   cin >> n;
-  int in;
-  int k = n;
-  while (n--)
-    {
-      cin >> in;
-      v.push_back (in);
-    }
-  vector < int >::iterator ip;
-  sort (v.begin (), v.end ());
-  ip = unique (v.begin (), v.begin () + k);
-  v.resize (distance (v.begin (), ip));
-  cout << v.size ();
+
+  if(n == 0){
+  	cout << 0;
+  	 return 0;
+  }
+
+  vector <int> v(n);
+
+  for(auto &x : v){
+  	cin >> x;
+  }
+
+  sort(v.begin(),v.end());
+
+  disti(v);
+
+  time;
   return 0;
 }
